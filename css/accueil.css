@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url('https://ilovecaraibes.com/wp-content/uploads/2023/07/5-serpents-effrayants-que-vous-pourriez-rencontrer-aux-caraibes.jpg'); /* Chemin vers votre image de fond */
+    background-size: cover; /* Assure que l'image de fond couvre toute la zone */
+    background-position: center; /* Centre l'image de fond */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#start-button {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+#initHighScore {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+#initHighScore:hover {
+    background-color: #45a049;
+}
+#start-button:hover {
+    background-color: #45a049;
+}
+
+#start-button i {
+    margin-right: 10px;
+}
